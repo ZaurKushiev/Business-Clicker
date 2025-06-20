@@ -30,8 +30,6 @@ namespace Code
 
         private void Start()
         {
-            Application.targetFrameRate = 120;
-
             _world = new EcsWorld();
             _systems = new EcsSystems(_world);
             _identifierService = new IdentifierService();
